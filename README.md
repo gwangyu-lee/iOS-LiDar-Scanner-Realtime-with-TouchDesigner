@@ -8,18 +8,18 @@ Open Lidar_Scanner_Realtime.xcworkspace.
 Connect iOS device with a LiDar Sensor(iPhone 12 Pro Max is recommended)
 Build it
 
-# Settings
+## Settings
 Just swipe to the right
 
 Set IP address and port and press the button “Set”
 
-# Realtime
+## Realtime
 
-# Statistics
+## Statistics
 
-# Reset
+## Reset
 
-# Export .obj file
+## Export .obj file
 
-# In TouchDesigner
+## In TouchDesigner
 
