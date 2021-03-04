@@ -1,0 +1,756 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1356451DE042790C501CEB8A /* Pods_Lidar_Scanner_RealtimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D9A2FF644EA56161CCEF504 /* Pods_Lidar_Scanner_RealtimeTests.framework */; };
+		B2E9238324444E5B7C31BEE2 /* Pods_Lidar_Scanner_Realtime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 817A9824BC48F67A6BBDFD3B /* Pods_Lidar_Scanner_Realtime.framework */; };
+		E267EB6190E78B9B1274B95F /* Pods_Lidar_Scanner_Realtime_Lidar_Scanner_RealtimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D74C646D365CCA0686CB1035 /* Pods_Lidar_Scanner_Realtime_Lidar_Scanner_RealtimeUITests.framework */; };
+		EA3421A325D4A7D000890A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3421A225D4A7D000890A80 /* AppDelegate.swift */; };
+		EA3421A525D4A7D000890A80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3421A425D4A7D000890A80 /* SceneDelegate.swift */; };
+		EA3421A725D4A7D000890A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3421A625D4A7D000890A80 /* ViewController.swift */; };
+		EA3421AA25D4A7D000890A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3421A825D4A7D000890A80 /* Main.storyboard */; };
+		EA3421AC25D4A7D200890A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA3421AB25D4A7D200890A80 /* Assets.xcassets */; };
+		EA3421AF25D4A7D200890A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA3421AD25D4A7D200890A80 /* LaunchScreen.storyboard */; };
+		EA3421BA25D4A7D200890A80 /* Lidar_Scanner_RealtimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3421B925D4A7D200890A80 /* Lidar_Scanner_RealtimeTests.swift */; };
+		EA3421C525D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3421C425D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA3421B625D4A7D200890A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA34219725D4A7D000890A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA34219E25D4A7D000890A80;
+			remoteInfo = Lidar_Scanner_Realtime;
+		};
+		EA3421C125D4A7D200890A80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA34219725D4A7D000890A80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA34219E25D4A7D000890A80;
+			remoteInfo = Lidar_Scanner_Realtime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AA96235776D4041002F7167 /* Pods-Lidar_Scanner_RealtimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lidar_Scanner_RealtimeTests.debug.xcconfig"; path = "Target Support Files/Pods-Lidar_Scanner_RealtimeTests/Pods-Lidar_Scanner_RealtimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D9A2FF644EA56161CCEF504 /* Pods_Lidar_Scanner_RealtimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lidar_Scanner_RealtimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4608189A5A01C11D626E0717 /* Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests.release.xcconfig"; path = "Target Support Files/Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests/Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		563E25EC449A1CEA6309A9DE /* Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests.debug.xcconfig"; path = "Target Support Files/Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests/Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		817A9824BC48F67A6BBDFD3B /* Pods_Lidar_Scanner_Realtime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lidar_Scanner_Realtime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		949F33AD5A65623ED072185F /* Pods-Lidar_Scanner_Realtime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lidar_Scanner_Realtime.release.xcconfig"; path = "Target Support Files/Pods-Lidar_Scanner_Realtime/Pods-Lidar_Scanner_Realtime.release.xcconfig"; sourceTree = "<group>"; };
+		D74C646D365CCA0686CB1035 /* Pods_Lidar_Scanner_Realtime_Lidar_Scanner_RealtimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lidar_Scanner_Realtime_Lidar_Scanner_RealtimeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD130D1235FD02F565A9D2F8 /* Pods-Lidar_Scanner_RealtimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lidar_Scanner_RealtimeTests.release.xcconfig"; path = "Target Support Files/Pods-Lidar_Scanner_RealtimeTests/Pods-Lidar_Scanner_RealtimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		EA34219F25D4A7D000890A80 /* Lidar_Scanner_Realtime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lidar_Scanner_Realtime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3421A225D4A7D000890A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA3421A425D4A7D000890A80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA3421A625D4A7D000890A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA3421A925D4A7D000890A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA3421AB25D4A7D200890A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA3421AE25D4A7D200890A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA3421B025D4A7D200890A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3421B525D4A7D200890A80 /* Lidar_Scanner_RealtimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lidar_Scanner_RealtimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3421B925D4A7D200890A80 /* Lidar_Scanner_RealtimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lidar_Scanner_RealtimeTests.swift; sourceTree = "<group>"; };
+		EA3421BB25D4A7D200890A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA3421C025D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lidar_Scanner_RealtimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA3421C425D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lidar_Scanner_RealtimeUITests.swift; sourceTree = "<group>"; };
+		EA3421C625D4A7D200890A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED4A4F22E724545DC5AA46E0 /* Pods-Lidar_Scanner_Realtime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lidar_Scanner_Realtime.debug.xcconfig"; path = "Target Support Files/Pods-Lidar_Scanner_Realtime/Pods-Lidar_Scanner_Realtime.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA34219C25D4A7D000890A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2E9238324444E5B7C31BEE2 /* Pods_Lidar_Scanner_Realtime.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3421B225D4A7D200890A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1356451DE042790C501CEB8A /* Pods_Lidar_Scanner_RealtimeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3421BD25D4A7D200890A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E267EB6190E78B9B1274B95F /* Pods_Lidar_Scanner_Realtime_Lidar_Scanner_RealtimeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60D59FFD96A2D5D94D98BFF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED4A4F22E724545DC5AA46E0 /* Pods-Lidar_Scanner_Realtime.debug.xcconfig */,
+				949F33AD5A65623ED072185F /* Pods-Lidar_Scanner_Realtime.release.xcconfig */,
+				563E25EC449A1CEA6309A9DE /* Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests.debug.xcconfig */,
+				4608189A5A01C11D626E0717 /* Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests.release.xcconfig */,
+				2AA96235776D4041002F7167 /* Pods-Lidar_Scanner_RealtimeTests.debug.xcconfig */,
+				DD130D1235FD02F565A9D2F8 /* Pods-Lidar_Scanner_RealtimeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA34219625D4A7D000890A80 = {
+			isa = PBXGroup;
+			children = (
+				EA3421A125D4A7D000890A80 /* Lidar_Scanner_Realtime */,
+				EA3421B825D4A7D200890A80 /* Lidar_Scanner_RealtimeTests */,
+				EA3421C325D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests */,
+				EA3421A025D4A7D000890A80 /* Products */,
+				EAEA9F9025D6233700AED50F /* Frameworks */,
+				60D59FFD96A2D5D94D98BFF2 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		EA3421A025D4A7D000890A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA34219F25D4A7D000890A80 /* Lidar_Scanner_Realtime.app */,
+				EA3421B525D4A7D200890A80 /* Lidar_Scanner_RealtimeTests.xctest */,
+				EA3421C025D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA3421A125D4A7D000890A80 /* Lidar_Scanner_Realtime */ = {
+			isa = PBXGroup;
+			children = (
+				EA3421A225D4A7D000890A80 /* AppDelegate.swift */,
+				EA3421A425D4A7D000890A80 /* SceneDelegate.swift */,
+				EA3421A625D4A7D000890A80 /* ViewController.swift */,
+				EA3421A825D4A7D000890A80 /* Main.storyboard */,
+				EA3421AB25D4A7D200890A80 /* Assets.xcassets */,
+				EA3421AD25D4A7D200890A80 /* LaunchScreen.storyboard */,
+				EA3421B025D4A7D200890A80 /* Info.plist */,
+			);
+			path = Lidar_Scanner_Realtime;
+			sourceTree = "<group>";
+		};
+		EA3421B825D4A7D200890A80 /* Lidar_Scanner_RealtimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3421B925D4A7D200890A80 /* Lidar_Scanner_RealtimeTests.swift */,
+				EA3421BB25D4A7D200890A80 /* Info.plist */,
+			);
+			path = Lidar_Scanner_RealtimeTests;
+			sourceTree = "<group>";
+		};
+		EA3421C325D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA3421C425D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests.swift */,
+				EA3421C625D4A7D200890A80 /* Info.plist */,
+			);
+			path = Lidar_Scanner_RealtimeUITests;
+			sourceTree = "<group>";
+		};
+		EAEA9F9025D6233700AED50F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				817A9824BC48F67A6BBDFD3B /* Pods_Lidar_Scanner_Realtime.framework */,
+				D74C646D365CCA0686CB1035 /* Pods_Lidar_Scanner_Realtime_Lidar_Scanner_RealtimeUITests.framework */,
+				3D9A2FF644EA56161CCEF504 /* Pods_Lidar_Scanner_RealtimeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA34219E25D4A7D000890A80 /* Lidar_Scanner_Realtime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3421C925D4A7D200890A80 /* Build configuration list for PBXNativeTarget "Lidar_Scanner_Realtime" */;
+			buildPhases = (
+				2A4ECB02BB60818C2B74F7ED /* [CP] Check Pods Manifest.lock */,
+				EA34219B25D4A7D000890A80 /* Sources */,
+				EA34219C25D4A7D000890A80 /* Frameworks */,
+				EA34219D25D4A7D000890A80 /* Resources */,
+				98C323C6BAB57F07CDCA3837 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lidar_Scanner_Realtime;
+			productName = Lidar_Scanner_Realtime;
+			productReference = EA34219F25D4A7D000890A80 /* Lidar_Scanner_Realtime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA3421B425D4A7D200890A80 /* Lidar_Scanner_RealtimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3421CC25D4A7D200890A80 /* Build configuration list for PBXNativeTarget "Lidar_Scanner_RealtimeTests" */;
+			buildPhases = (
+				63F92BCC18A0C599321747AC /* [CP] Check Pods Manifest.lock */,
+				EA3421B125D4A7D200890A80 /* Sources */,
+				EA3421B225D4A7D200890A80 /* Frameworks */,
+				EA3421B325D4A7D200890A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3421B725D4A7D200890A80 /* PBXTargetDependency */,
+			);
+			name = Lidar_Scanner_RealtimeTests;
+			productName = Lidar_Scanner_RealtimeTests;
+			productReference = EA3421B525D4A7D200890A80 /* Lidar_Scanner_RealtimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA3421BF25D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA3421CF25D4A7D200890A80 /* Build configuration list for PBXNativeTarget "Lidar_Scanner_RealtimeUITests" */;
+			buildPhases = (
+				89B1ABB1CC243D668B3DDC6C /* [CP] Check Pods Manifest.lock */,
+				EA3421BC25D4A7D200890A80 /* Sources */,
+				EA3421BD25D4A7D200890A80 /* Frameworks */,
+				EA3421BE25D4A7D200890A80 /* Resources */,
+				024F327E47A88E0948A443AA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA3421C225D4A7D200890A80 /* PBXTargetDependency */,
+			);
+			name = Lidar_Scanner_RealtimeUITests;
+			productName = Lidar_Scanner_RealtimeUITests;
+			productReference = EA3421C025D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA34219725D4A7D000890A80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EA34219E25D4A7D000890A80 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EA3421B425D4A7D200890A80 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EA34219E25D4A7D000890A80;
+					};
+					EA3421BF25D4A7D200890A80 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EA34219E25D4A7D000890A80;
+					};
+				};
+			};
+			buildConfigurationList = EA34219A25D4A7D000890A80 /* Build configuration list for PBXProject "Lidar_Scanner_Realtime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA34219625D4A7D000890A80;
+			productRefGroup = EA3421A025D4A7D000890A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA34219E25D4A7D000890A80 /* Lidar_Scanner_Realtime */,
+				EA3421B425D4A7D200890A80 /* Lidar_Scanner_RealtimeTests */,
+				EA3421BF25D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA34219D25D4A7D000890A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3421AF25D4A7D200890A80 /* LaunchScreen.storyboard in Resources */,
+				EA3421AC25D4A7D200890A80 /* Assets.xcassets in Resources */,
+				EA3421AA25D4A7D000890A80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3421B325D4A7D200890A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3421BE25D4A7D200890A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		024F327E47A88E0948A443AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests/Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests/Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests/Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A4ECB02BB60818C2B74F7ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lidar_Scanner_Realtime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63F92BCC18A0C599321747AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lidar_Scanner_RealtimeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89B1ABB1CC243D668B3DDC6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98C323C6BAB57F07CDCA3837 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lidar_Scanner_Realtime/Pods-Lidar_Scanner_Realtime-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lidar_Scanner_Realtime/Pods-Lidar_Scanner_Realtime-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lidar_Scanner_Realtime/Pods-Lidar_Scanner_Realtime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA34219B25D4A7D000890A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3421A725D4A7D000890A80 /* ViewController.swift in Sources */,
+				EA3421A325D4A7D000890A80 /* AppDelegate.swift in Sources */,
+				EA3421A525D4A7D000890A80 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3421B125D4A7D200890A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3421BA25D4A7D200890A80 /* Lidar_Scanner_RealtimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA3421BC25D4A7D200890A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA3421C525D4A7D200890A80 /* Lidar_Scanner_RealtimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA3421B725D4A7D200890A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA34219E25D4A7D000890A80 /* Lidar_Scanner_Realtime */;
+			targetProxy = EA3421B625D4A7D200890A80 /* PBXContainerItemProxy */;
+		};
+		EA3421C225D4A7D200890A80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA34219E25D4A7D000890A80 /* Lidar_Scanner_Realtime */;
+			targetProxy = EA3421C125D4A7D200890A80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA3421A825D4A7D000890A80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3421A925D4A7D000890A80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA3421AD25D4A7D200890A80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA3421AE25D4A7D200890A80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA3421C725D4A7D200890A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA3421C825D4A7D200890A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA3421CA25D4A7D200890A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED4A4F22E724545DC5AA46E0 /* Pods-Lidar_Scanner_Realtime.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SPVZAWDBR;
+				INFOPLIST_FILE = Lidar_Scanner_Realtime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyuleedevelop.Lidar-Scanner-Realtime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA3421CB25D4A7D200890A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 949F33AD5A65623ED072185F /* Pods-Lidar_Scanner_Realtime.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9SPVZAWDBR;
+				INFOPLIST_FILE = Lidar_Scanner_Realtime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyuleedevelop.Lidar-Scanner-Realtime";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA3421CD25D4A7D200890A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA96235776D4041002F7167 /* Pods-Lidar_Scanner_RealtimeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFAK28T88P;
+				INFOPLIST_FILE = Lidar_Scanner_RealtimeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyulee.Lidar-Scanner-RealtimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lidar_Scanner_Realtime.app/Lidar_Scanner_Realtime";
+			};
+			name = Debug;
+		};
+		EA3421CE25D4A7D200890A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD130D1235FD02F565A9D2F8 /* Pods-Lidar_Scanner_RealtimeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFAK28T88P;
+				INFOPLIST_FILE = Lidar_Scanner_RealtimeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyulee.Lidar-Scanner-RealtimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lidar_Scanner_Realtime.app/Lidar_Scanner_Realtime";
+			};
+			name = Release;
+		};
+		EA3421D025D4A7D200890A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 563E25EC449A1CEA6309A9DE /* Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFAK28T88P;
+				INFOPLIST_FILE = Lidar_Scanner_RealtimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyulee.Lidar-Scanner-RealtimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lidar_Scanner_Realtime;
+			};
+			name = Debug;
+		};
+		EA3421D125D4A7D200890A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4608189A5A01C11D626E0717 /* Pods-Lidar_Scanner_Realtime-Lidar_Scanner_RealtimeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WFAK28T88P;
+				INFOPLIST_FILE = Lidar_Scanner_RealtimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gwangyulee.Lidar-Scanner-RealtimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Lidar_Scanner_Realtime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA34219A25D4A7D000890A80 /* Build configuration list for PBXProject "Lidar_Scanner_Realtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3421C725D4A7D200890A80 /* Debug */,
+				EA3421C825D4A7D200890A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3421C925D4A7D200890A80 /* Build configuration list for PBXNativeTarget "Lidar_Scanner_Realtime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3421CA25D4A7D200890A80 /* Debug */,
+				EA3421CB25D4A7D200890A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3421CC25D4A7D200890A80 /* Build configuration list for PBXNativeTarget "Lidar_Scanner_RealtimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3421CD25D4A7D200890A80 /* Debug */,
+				EA3421CE25D4A7D200890A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA3421CF25D4A7D200890A80 /* Build configuration list for PBXNativeTarget "Lidar_Scanner_RealtimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA3421D025D4A7D200890A80 /* Debug */,
+				EA3421D125D4A7D200890A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA34219725D4A7D000890A80 /* Project object */;
+}
