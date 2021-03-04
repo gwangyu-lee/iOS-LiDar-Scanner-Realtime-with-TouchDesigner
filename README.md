@@ -13,12 +13,26 @@ Swipe to the right edge of the screen.
 Set IP address and port and press the button “Set”
 
 ### Realtime
+If the switch is ON, Realtime mode is ON.
 
 ### Statistics
+If the switch is ON, it'll show you the statistics on screen.
 
-### Reset
+## Reset
+Reset the frame.
 
 ## Export .obj file
+Export .obj file and can send it to other devices or can save it on you iPhone.
 
-## In TouchDesigner
+## How to work with TouchDesigner
+#### In TouchDesigner
+Open LiDar_Scanner_Realtime.toe.
+Click the OSC In DAT.
+Set the port.
 
+#### In iOS
+Run the application.
+Set IP address and port.
+Turn the realtime ON.
+
+See the Geometry Viewer in TouchDesigner.
