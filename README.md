@@ -9,15 +9,14 @@ Connect iOS device with a LiDar Sensor(iPhone 12 Pro Max is recommended)
 Build it
 
 ## Settings
-Just swipe to the right
-
+Swipe to the right edge of the screen.
 Set IP address and port and press the button “Set”
 
-## Realtime
+### Realtime
 
-## Statistics
+### Statistics
 
-## Reset
+### Reset
 
 ## Export .obj file
 
