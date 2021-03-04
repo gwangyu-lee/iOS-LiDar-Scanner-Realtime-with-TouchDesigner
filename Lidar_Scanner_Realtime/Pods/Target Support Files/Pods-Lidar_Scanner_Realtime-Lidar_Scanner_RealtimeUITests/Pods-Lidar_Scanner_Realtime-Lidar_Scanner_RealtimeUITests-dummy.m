@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_Lidar_Scanner_Realtime_Lidar_Scanner_RealtimeUITests : NSObject
+@end
+@implementation PodsDummy_Pods_Lidar_Scanner_Realtime_Lidar_Scanner_RealtimeUITests
+@end
