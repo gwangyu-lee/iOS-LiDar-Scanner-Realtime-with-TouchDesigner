@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Lidar_Scanner_Realtime
 //
-//  Created by Gwan-Gyu Lee(fred.music.9808@icloud.com) on 2021/02/11.
+//  Created by Gwan-Gyu Lee(frd.lee@icloud.com) on 2021/02/11.
 //
 //  This application contains copyrighted software under MIT License version 1.3.
 //  Copyright (c) 2017 Devin Roth (devin@devinrothmusic.com)
