@@ -4,8 +4,8 @@
 //
 //  Created by Gwan-Gyu Lee(frd.lee@icloud.com) on 2021/02/11.
 //
-//  This application contains copyrighted software under MIT License version 1.3.
-//  Copyright (c) 2017 Devin Roth (devin@devinrothmusic.com)
+//  This application contains copyrighted software under MIT License.
+//  SwiftOSC - Copyright (c) 2017 Devin Roth
 
 import UIKit
 import RealityKit
