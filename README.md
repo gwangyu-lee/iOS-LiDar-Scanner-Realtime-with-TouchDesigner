@@ -1,6 +1,8 @@
 # iOS-LiDar-Scanner-Realtime-Test
-
 An example application using a LiDar sensor on iOS with TouchDesigner. 
+
+This application contains copyrighted software under MIT License.
+SwiftOSC - Copyright (c) 2017 Devin Roth
 
 ## How to build
 
