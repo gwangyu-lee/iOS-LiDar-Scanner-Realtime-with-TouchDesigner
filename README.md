@@ -1,9 +1,6 @@
 # iOS-LiDar-Scanner-Realtime-Test
 An example application using a LiDar sensor on iOS with TouchDesigner. 
 
-This application contains copyrighted software under MIT License.
-SwiftOSC - Copyright (c) 2017 Devin Roth
-
 ## How to build
 
 Open Lidar_Scanner_Realtime.xcworkspace.   
@@ -41,3 +38,6 @@ Set the port.
 
 ![Lidar-1](https://user-images.githubusercontent.com/79373845/118382040-042ff480-b62c-11eb-928e-96b3ed0e518f.gif)
 
+
+This application contains copyrighted software under MIT License.     
+SwiftOSC - Copyright (c) 2017 Devin Roth
