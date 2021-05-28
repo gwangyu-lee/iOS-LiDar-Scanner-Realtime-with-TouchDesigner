@@ -2,8 +2,10 @@
 //  SceneDelegate.swift
 //  Lidar_Scanner_Realtime
 //
-//  Created by 이관규 on 2021/02/11.
+//  Created by Gwan-Gyu Lee(frd.lee@icloud.com) on 2021/02/11.
 //
+//  This application contains copyrighted software under MIT License.
+//  SwiftOSC - Copyright (c) 2017 Devin Roth
 
 import UIKit
 
