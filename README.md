@@ -15,13 +15,13 @@ Set IP address and port and press the button “Set”
 If the switch is ON, Realtime mode is ON.
 
 ### Statistics
-If the switch is ON, it'll show you the statistics on screen.
+If the switch is ON, it'll show you the statistics on the screen.
 
 ## Reset
 Reset the frame.
 
 ## Export .obj file
-Export .obj file and can send it to other devices or can save it on you iPhone.
+Export .obj file and can send it to other devices or can save it on your iPhone.
 
 ## How to work with TouchDesigner
 #### In iOS
