@@ -1,4 +1,4 @@
-# iOS-LiDar-Scanner-Realtime
+# iOS-LiDar-Scanner-Realtime-with-TouchDesigner
 An example application using a LiDar sensor on iOS with TouchDesigner. 
 
 ## How to build
